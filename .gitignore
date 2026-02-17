@@ -1,0 +1,45 @@
+# Data files - DO NOT COMMIT
+data/*.csv
+data/*.xlsx
+data/*.xls
+*.csv
+*.xlsx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Model files (if you save trained models)
+*.pkl
+*.pickle
+*.joblib
+*.h5
+
+# Large output files
+*.pdf
+outputs/
